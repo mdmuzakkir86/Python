@@ -1,0 +1,20 @@
+WARNING:root:Warning Information   | 2022-01-02, 13:10  (level:None)
+ERROR:root:Error Information       | 2022-01-02, 13:10  (level:None)
+CRITICAL:root:Critical Information | 2022-01-02, 13:10  (level:None)
+
+DEBUG:root:Debug Information       | 2022-01-02, 13:11  (level:debug)
+INFO:root:Info Information         | 2022-01-02, 13:11  (level:debug)
+WARNING:root:Warning Information   | 2022-01-02, 13:11  (level:debug)
+ERROR:root:Error Information       | 2022-01-02, 13:11  (level:debug)
+CRITICAL:root:Critical Information | 2022-01-02, 13:11  (level:debug)
+
+DEBUG:root:Debug Information       | 2022-07-08, 10:43  (level:debug)
+INFO:root:Info Information         | 2022-07-08, 10:43  (level:debug)
+WARNING:root:Warning Information   | 2022-07-08, 10:43  (level:debug)
+ERROR:root:Error Information       | 2022-07-08, 10:43  (level:debug)
+CRITICAL:root:Critical Information | 2022-07-08, 10:43  (level:debug)
+
+WARNING:root:Warning Information   | 2022-07-08, 11:13  (level:debug)
+ERROR:root:Error Information       | 2022-07-08, 11:13  (level:debug)
+CRITICAL:root:Critical Information | 2022-07-08, 11:13  (level:debug)
+

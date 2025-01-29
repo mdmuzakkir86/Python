@@ -1,0 +1,94 @@
+1. What is the need of Numpy?
+  By using python we can perform basic mathemetical operations.
+  a = 10
+  b = 20
+  a+b
+  math.sqrt(4)
+
+  As the part of data science, machine learning, ddep learning it is very comoon to perfrom complex mathemetical operations like
+  1. Creation of arrays
+  2. Perform several operations on arrays/matrices
+  3. Perform integral calculuas operations
+  4. Solving diffential equations 
+  5. Statistic realation operations etc.
+  
+  To perform these operations we required a library which is nothing but numpy
+====================================================================================
+2. What is Numpy ?
+  Numpy stands for Numerical Python
+  It is the fundamental python library to perform complex numerical operations.
+====================================================================================
+3. In which language Numpy was written?
+  Numpy was written in python and c language, so it is very fast in performing calculations compare to list
+====================================================================================
+4. Features of numpy?
+  1. Numpy super fast because it is written in c language
+  2. Numpy acts as bacbone for data science libraries like pandas, sickit-learn etc
+     pandas internally used 'nd array' to store data, which is numpy data structure
+  3. numy has vectorization feature which imporve performance while iterating elements.
+====================================================================================
+5. What is nd array in Numpy?
+  In Numpy we can hold data by using array data structure.
+  nd array --> N-Dimensional array or numpy array
+====================================================================================
+6. What is the advatages of numpy comapre to list ?
+  Performnce is very high
+====================================================================================
+7. Application area of Numpy ?
+  1. To perfrom linear algibra
+  2. To perfrom linear regression
+  3. To perfrom logistic regression
+  4. ddep neural network
+  etc
+====================================================================================
+8. Diff b/w ptho list and Numpy array?
+  1. List is inbuilt data type and Numpy array is not
+  2. List hold heterogeneous elements and array hold homogeneous elements 
+  3. List perfromance is slow and array perfromance is very fast
+  4. List dose not support vector operation and array support vector operation
+
+	import numpy as np
+	a = no.array([10,20,30])
+	a+1 # array([11,21,31])
+	
+	b = [10,20,30]
+	b+1 # [10,20,30,10,20,30]
+
+  5. List consume more memory compare to numpy array
+
+	import numpy as np
+	import sys
+	a = no.array([10,20,30,10,20,30,10,20,30,10,20,30])
+	l = [10,20,30,10,20,30,10,20,30,10,20,30]
+	print('The size of Numpy array:', sys.getsizeof(a))
+	print('The size of list:', sys.getsizeof(l))
+
+  6. Numpy is more convenient to use while performing mathemetical operations.
+
+
+*************
+1. Creating array
+2. Array operation
+3. Array attributes
+4. Array indexing and slicing
+5. Broadcasting
+6. Iterating over array
+7. Binary condition
+8. Copy and view
+9. sort and search
+10.statistic related function
+11.linear algebra function
+etc.
+
+
+
+
+
+
+
+
+
+
+
+
+

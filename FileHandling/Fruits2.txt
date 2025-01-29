@@ -1,0 +1,6 @@
+Apple color is red
+Banana color is yellow
+Pinapple color is green
+Grapes color is green
+Orange color is orange
+Mango color is Yellow

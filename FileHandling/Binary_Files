@@ -1,0 +1,27 @@
+"""
+Binary file handling:
+---------------------
+To perform zip and unzip file operation, python provides inbuilt module
+module: zipfile module
+class: ZipFile
+
+To perform zip operation/ create a zip file:
+--------------------------------------------
+f = Zipfile('Zipfile1.zip', 'w', ZIP_DEFLATED)
+f.write('file1.txt')
+f.write('file2.txt')
+
+To perform unzip operation:
+---------------------------
+f = ZipFile('Zipfile1.zip', 'r',ZIP_STORED)
+names = f.namelist()
+"""
+
+from zipfile import *
+
+f = ZipFile("files.zip", 'w', ZIP_DEFLATED)
+f.write("file1.txt")
+f.write("file2.txt")
+f.write("file3.txt")
+f.close()
+print("files.zip file created successfully")
